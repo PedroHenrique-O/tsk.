@@ -12,6 +12,9 @@ export const Tasks = styled.div<TaskProps>`
   border-radius: 20px;
   padding-top: 20px;
   margin-bottom: 20px;
+  @media screen and (max-width: 720px) {
+    padding-top: 10px;
+  }
   &:last-child {
     margin-bottom: 0px;
   }
@@ -29,6 +32,10 @@ export const Tasks = styled.div<TaskProps>`
       font-size: 16px;
       line-height: 19.36px;
       justify-content: space-between;
+
+      @media screen and (max-width: 720px) {
+        margin: 0 20px 10px;
+      }
     }
 
     svg {
@@ -70,6 +77,9 @@ export const Tasks = styled.div<TaskProps>`
     display: flex;
     justify-content: center;
     padding: 20px;
+    @media screen and (max-width: 720px) {
+      padding: 10px;
+    }
   }
 `;
 export const FooterContainer = styled.div`
