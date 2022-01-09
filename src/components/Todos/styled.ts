@@ -14,6 +14,7 @@ export const Tasks = styled.div<TaskProps>`
   margin-bottom: 20px;
   @media screen and (max-width: 720px) {
     padding-top: 10px;
+    min-height: auto;
   }
   &:last-child {
     margin-bottom: 0px;
