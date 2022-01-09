@@ -30,6 +30,11 @@ export const ModalContent = styled.div`
   padding: 60px 48px;
   position: relative;
 
+  @media screen and (max-width: 720px) {
+    padding-left: 29px;
+    padding-right: 29px;
+  }
+
   svg {
     width: 25px;
     height: 25px;
@@ -62,14 +67,13 @@ export const ModalContent = styled.div`
   input {
     width: 100%;
     height: 64px;
-    ::placeholder {
-    }
   }
   textarea {
     width: 100%;
     height: 234px;
     padding: 20px;
-    ::placeholder {
+    @media screen and (max-width: 720px) {
+      margin-bottom: 38px;
     }
   }
 
@@ -82,6 +86,11 @@ export const ModalContent = styled.div`
       line-height: 24px;
       width: 100%;
       height: 64px;
+      @media screen and (max-width: 720px) {
+        width: 187.61px;
+        //margin-top: 38px;
+      }
+
       &:hover {
         background: ${darken("0.04", "rgb(172, 109, 222)")};
         transition: background-color 0.2s ease-in;
