@@ -31,8 +31,6 @@ export function Dashboard() {
       return todo;
     });
     setTodoList([...toggleIsCompleted]);
-
-    console.log(todoList);
   };
 
   return (
