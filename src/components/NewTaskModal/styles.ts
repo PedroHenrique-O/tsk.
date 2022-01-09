@@ -88,7 +88,6 @@ export const ModalContent = styled.div`
       height: 64px;
       @media screen and (max-width: 720px) {
         width: 187.61px;
-        //margin-top: 38px;
       }
 
       &:hover {
